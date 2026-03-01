@@ -56,7 +56,7 @@ $$
 y' = x \cdot \sin\beta + y \cdot \cos\beta
 $$
 
-*其中$\beta$为绕轴旋转的角度*
+*其中 β 为绕轴旋转的角度*
 
 ---
 
