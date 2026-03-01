@@ -34,23 +34,29 @@ The rotation animation of the cube is realized by the 3D coordinate rotation for
 ### 📐 Core Formulas
 #### 1. Perspective Projection Formula
 Map 3D space coordinates `(x, y, z)` to 2D screen coordinates `(x', y')`:
+
 $$
 x' = \frac{x}{z}
 $$
+
 $$
 y' = \frac{y}{z}
 $$
+
 *Where `z` is the distance between the spatial point and the camera*
 
 #### 2. Spatial Rotation Formula
 Core 2D plane rotation formula (the basis for 3D multi-axis composite rotation):
+
 $$
 x' = x \cdot \cos\beta - y \cdot \sin\beta
 $$
+
 $$
 y' = x \cdot \sin\beta + y \cdot \cos\beta
 $$
-*Where $\beta$ is the rotation angle around the axis*
+
+*Where  $\beta$  is the rotation angle around the axis*
 
 ---
 
