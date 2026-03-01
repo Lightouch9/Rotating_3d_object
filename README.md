@@ -56,7 +56,7 @@ $$
 y' = x \cdot \sin\beta + y \cdot \cos\beta
 $$
 
-*Where  $\beta$  is the rotation angle around the axis*
+*Where$\beta$is the rotation angle around the axis*
 
 ---
 
